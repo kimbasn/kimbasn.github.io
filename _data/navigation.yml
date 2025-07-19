@@ -1,9 +1,37 @@
+# the masthead
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Resume"
+    url: /assets/docs/resume.pdf
+  # - title: "Blog"
+  #   url: /blog/
+
+# sidebar for portfolio
+portfolio:
+  - title: "Projects"
+    children:
+      - title: "UEFA Champions League Chatbot"
+        url: /portfolio/chatbot-uefa-champions-league/
+      - title: "Toll Plaza Simulator"
+        url: /portfolio/toll-plaza-simulator/
+
+  - title: "Professional"
+    children:
+      # - title: "DeskAI"
+      #   url: /portfolio/deskai
+      # - title: "Smart Climate Index"
+      #   url: /portfolio/sclm
+
+  - title: "Research"
+    children:
+      # - title: "Dynamic Anomaly Detection"
+      #   url: /portfolio/networks/
+      # - title: "Statistics of Entanglement"
+      #   url: /portfolio/qm_stats/
+      # - title: "Magnetic Waves and Noise"
+      #   url: /portfolio/waves/
