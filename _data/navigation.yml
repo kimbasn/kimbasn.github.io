@@ -15,11 +15,11 @@ main:
 portfolio:
   - title: "Projects"
     children:
+      - title: "Distributed Commit Log"
+        url: /portfolio/distributed-commit-log
       - title: "UEFA Champions League Chatbot"
         url: /portfolio/chatbot-uefa-champions-league/
-      - title: "Toll Plaza Simulator"
-        url: /portfolio/toll-plaza-simulator/
-
+      
   - title: "Professional"
     children:
       # - title: "DeskAI"

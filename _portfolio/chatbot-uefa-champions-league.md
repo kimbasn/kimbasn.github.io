@@ -11,10 +11,10 @@ toc_label: "Contents"
 ---
 
 ## Project Overview
+
 The UEFA Champions League is one of the world’s most prestigious football tournaments, drawing the attention of millions of fans globally. To facilitate access to accurate, and engaging information, I developed an Retrieval-Augmented Generation (RAG) chatbot. This chatbot provides users with seamless access to both structured and unstructured data about players, teams, and matches.
 
 By leveraging knowledge graphs, the chatbot delivers personalized, data-driven responses, enhancing user engagement and offering a rich, interactive experience for football enthusiasts. The primary goal is to simplify access to comprehensive statistics and insights, ensuring fans stay informed and entertained.
-
 
 ## **Key Features**
 
@@ -24,8 +24,8 @@ By leveraging knowledge graphs, the chatbot delivers personalized, data-driven r
 - **Detailed Match and Player Insights:** Explore in-depth stats, such as player performances, team achievements, and match outcomes, all sourced from reliable historical data.
 - **Broad Query Range:** Discover insights across a variety of topics, including player stats, team comparisons, and match history, to enhance your knowledge of the UEFA Champions League.
 
-
 ## Architecture
+
 The UEFA Champions League Chatbot operates by combining a knowledge graph stored in Neo4j with a language model from OpenAI to deliver structured, data-driven responses. When a user submits a query via the Streamlit interface, the system uses a custom pipeline to process the input. First, the natural language query is translated into a Cypher query using a few-shot prompting technique, which enables the chatbot to dynamically generate appropriate queries for the Neo4j graph database. This graph stores detailed relationships between players, teams, and match statistics. The Cypher query is executed to retrieve relevant data, which is then passed to OpenAI's GPT model to generate a comprehensive and human-readable response. The FastAPI backend orchestrates these operations, managing communication between the user interface, the chatbot, and the Neo4j database, ensuring efficient query execution and real-time interaction. This architecture allows the system to provide rich, context-aware responses while handling structured data in an efficient manner.
 
 ## Technology Stack
@@ -46,6 +46,6 @@ The UEFA Champions League Chatbot operates by combining a knowledge graph stored
 - **Personalized User Experience:** Implement user profiles to track favorite teams or players, offering personalized recommendations and updates.
 - **More competition Support:** Extend chatbot capabilities to support multiple competition, broadening accessibility for global football fans.
 
-
 ## **GitHub Repository**
+
 Explore the complete codebase and documentation for the UEFA Champions League Chatbot on GitHub: [UEFA Champions League Chatbot Repository](https://github.com/sabingoyek/uefa-champions-league-chatbot)

@@ -35,19 +35,21 @@ timezone: Europe/Paris
 author:
   name: "Kimba SABI N'GOYE"
   avatar: "/assets/images/headshot.png"
-  bio: "I enjoy writing about things I'm interested in - mostly Data and software engineering."
+  bio: "Software/Data Engineer"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/kimbasabingoye"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kimbasabingoye"
+      url: "https://github.com/kimbasn"
     - label: "Leetcode"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-fw fa-link"
       url: "https://leetcode.com/u/kimbasn"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/kimbasn"
   location: "Paris, France"
-  email: kimbasabingoye at gmail.com
 
 # # comments by disqus
 # comments:
@@ -56,7 +58,7 @@ author:
 #     shortname: "pwills-com"
 
 analytics:
-  provider: "google-gtag"
+  provider: "google"
   google:
     tracking_id: "G-0S5FW31NN6"
     anonymize_ip: false
