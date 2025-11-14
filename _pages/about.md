@@ -10,10 +10,6 @@ gallery:
     image_path: /assets/images/cames.jpg
     alt: "CAMES"
     title: "CAMES Olympiad"
-  - url: /assets/images/cames.jpg
-    image_path: /assets/images/renault.jpg
-    alt: "Renault Internship Last Day"
-    title: "Renault Internship Last Day"
   - url: /assets/images/dstn.jpg
     image_path: /assets/images/dstn.jpg
     alt: "DSTN Hackathon"
