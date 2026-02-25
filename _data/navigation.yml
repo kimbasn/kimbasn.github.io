@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Resume"
-    url: /assets/docs/resume.pdf
+  # - title: "Resume"
+  #   url: /assets/docs/resume.pdf
   # - title: "Blog"
   #   url: /blog/
 
@@ -15,10 +15,10 @@ main:
 portfolio:
   - title: "Projects"
     children:
-      - title: "Distributed Commit Log"
-        url: /portfolio/distributed-commit-log
-      - title: "UEFA Champions League Chatbot"
-        url: /portfolio/chatbot-uefa-champions-league/
+      # - title: "Distributed Commit Log"
+      #   url: /portfolio/distributed-commit-log
+      # - title: "UEFA Champions League Chatbot"
+      #   url: /portfolio/chatbot-uefa-champions-league/
       
   - title: "Professional"
     children:
