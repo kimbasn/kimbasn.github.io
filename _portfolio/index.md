@@ -7,21 +7,21 @@ permalink: /portfolio/index.html
 date: 2024-10-15
 
 feature_row:
-  - #image_path: assets/images/football_bot.jpeg
-    alt: "Distributed Commit Log"
-    title: "Distributed Commit Log"
-    excerpt: "A production-grade, append-only commit log built from scratch in Go, mirroring systems like Apache Kafka and database WAL implementations. Features
-  memory-mapped indexes, gRPC streaming APIs."
-    url: /portfolio/distributed-commit-log/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: assets/images/football_bot.jpeg
-    alt: "Champions League Chatbot"
-    title: "Champions League Chatbot"
-    excerpt: "The UEFA Champions League Chatbot efficiently provides personalized insights and statistics to football fans by RAG."
-    url: /portfolio/chatbot-uefa-champions-league/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  # - #image_path: assets/images/football_bot.jpeg
+  #   alt: "Distributed Commit Log"
+  #   title: "Distributed Commit Log"
+  #   excerpt: "A production-grade, append-only commit log built from scratch in Go, mirroring systems like Apache Kafka and database WAL implementations. Features
+  # memory-mapped indexes, gRPC streaming APIs."
+  #   url: /portfolio/distributed-commit-log/
+  #   btn_label: "Read More"
+  #   btn_class: "btn--primary"
+  # - image_path: assets/images/football_bot.jpeg
+  #   alt: "Champions League Chatbot"
+  #   title: "Champions League Chatbot"
+  #   excerpt: "The UEFA Champions League Chatbot efficiently provides personalized insights and statistics to football fans by RAG."
+  #   url: /portfolio/chatbot-uefa-champions-league/
+  #   btn_label: "Read More"
+  #   btn_class: "btn--primary"
   # - image_path: assets/images/toll-plaza.avif
   #   alt: "Toll Plaza"
   #   title: "Toll Plaza Simulator"
